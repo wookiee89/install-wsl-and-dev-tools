@@ -1,0 +1,7 @@
+all:
+  hosts: localhost
+  vars:
+    ansible_user: jayjain
+    ansible_connection: winrm
+    ansible_winrm_server_cert_validation: ignore
+    
